@@ -1,0 +1,10 @@
+@namespace h url("http://www.w3.org/1999/xhtml");
+@namespace e url("http://www.ejemplo.com/");
+
+ *|fichero {background:burlywood;border-style:none;}
+*|* {color:black;display:block;}
+*|ficha {display:block;margin:50px;border-style:solid;}
+*|nombre {display: block;}
+*|apellido {display: block;}
+*|direccion {display: block;}
+*|DUI {display: block;}

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo-ii-1c.css"?>
+<!-- ejemplo-ii-1c-dtd.xml GRUPO03-->
+<!DOCTYPE publicacion SYSTEM "publicacion.dtd">
+
+
+<fichero>
+
+ <ficha>
+	<nombre sexo="femenino" edad="17">Angelina</nombre>
+	<apellido>Fernandez</apellido>
+	<direccion>c/Ulises, 36</direccion>
+	<DUI>45632812-8</DUI>
+	
+	
+	
+	
+ </ficha>
+  <ficha>
+	<nombre sexo="femenino" edad="17">Calixto</nombre>
+	<apellido>Alvarado</apellido>
+	<direccion>c/Piletas 52</direccion>
+	<DUI>8555458455-8</DUI>
+	
+	
+	
+	
+ </ficha>
+</fichero>
