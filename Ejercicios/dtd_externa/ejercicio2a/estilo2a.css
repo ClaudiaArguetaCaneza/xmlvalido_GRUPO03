@@ -1,0 +1,20 @@
+/* estilos2a.css   Grupo03  */
+    
+fichero {
+    background-color:rgb(59, 59, 124);
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #141414;
+    text-align: center;}
+  
+       ficha {background-color:rgba(247, 188, 237, 0.438); color:rgb(22, 1, 22);display:block;} 
+       nombre {color:#252440; display:inline;font-size:35px;} 
+       apellido {color:yellow;font-size:35px;}
+       DUI {font-size:30px;}
+       direccion {background: color #1356bb;;font-size:25px;display:block;}
+       telefono {background-color:#256edc;font-size:20px;display:block;}
+       estudio {background-color:#427ed7;font-size:20px;display:block;}
+       grupofamiliar {background-color:#5f95e7;font-size:20px;display:block;}
+       
