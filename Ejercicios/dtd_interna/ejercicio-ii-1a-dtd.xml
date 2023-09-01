@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplo-ii-1a-dtd.xml GRUPO03-->
+
+<!DOCTYPE fichero [
+		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?, telefono, estudio?, grupofamiliar?)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
+        <!ATTLIST nombre edad  CDATA  #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT direccion (#PCDATA)>
+		<!ELEMENT DUI (#PCDATA)>
+		<!ELEMENT telefono (fijo|movil)>
+		<!ELEMENT estudio (carrera, (facultad?,universidad))>
+		<!ELEMENT grupofamiliar (padre, madre, (hijo|hija)*, amadecasa?)>
+		]>
+<fichero>
+
+ <ficha>
+	<nombre sexo="femenino" edad="17">Angelina</nombre>
+	<apellido>Fernandez</apellido>
+	<direccion>c/Ulises, 36</direccion>
+	<DUI>45632812-8</DUI>
+
+	<telefono>
+		<movil>77520008</movil>
+		<fijo>78578236</fijo>
+	</telefono>
+
+	<estudio>
+		<carrera> Ingenieria de Sistemas Informaticos </carrera>
+		<facultad>Facultad de Ingenieria y Arquitectura</facultad>
+		<universidad>Universidad de El Salvador</universidad>
+	</estudio>
+
+	<grupofamiliar>
+		<padre>Jose Fernandez</padre>
+		<madre>Sonia Lopez</madre>
+		<hijo>Fernando Fernandez</hijo>
+	</grupofamiliar>
+ </ficha>
+ 
+</fichero>
