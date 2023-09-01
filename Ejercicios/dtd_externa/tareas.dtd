@@ -1,0 +1,39 @@
+<!--Grupo 3-->
+<!ELEMENT universidad (grupodetrabajo, facultad, carrera, materia, grupo+)>
+  <!ATTLIST universidad pertenencia CDATA #FIXED "Universidad de El Salvador">
+
+  <!ELEMENT grupodetrabajo (#PCDATA)>
+
+  <!ELEMENT facultad (nombref, codigof)>
+  <!ELEMENT nombref (#PCDATA)>
+  <!ELEMENT codigof (#PCDATA)>
+
+  <!ELEMENT carrera (nombre, codigo)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT codigo (#PCDATA)>
+
+  <!ELEMENT materia (#PCDATA)>
+
+  <!ELEMENT grupo (formacion, profesor, evaluacion?, grupo_num, tema, integrantes)>
+  <!ELEMENT formacion (#PCDATA)>
+  <!ELEMENT profesor (#PCDATA)>
+  <!ELEMENT evaluacion (actividad, porcentaje)?>
+  <!ELEMENT actividad (#PCDATA)>
+  <!ELEMENT porcentaje (#PCDATA)>
+
+  <!ELEMENT grupo_num (#PCDATA)>
+  <!ELEMENT tema (#PCDATA)>
+  <!ELEMENT integrantes (integrante+)>
+
+  <!ELEMENT integrante (carnet, ((nombresi,apellidos) | (apellidos,nombresi)), sexo?)>
+  <!ELEMENT carnet (#PCDATA)>
+  <!ELEMENT apellidos (#PCDATA)>
+  <!ELEMENT nombresi (#PCDATA)>
+  <!ELEMENT sexo (#PCDATA)>
+
+  <!ATTLIST grupo_num
+      tipo (GT | GL | GD) #REQUIRED
+      aula (teorico | laboratorio | discusion) #REQUIRED>
+
+  <!ATTLIST integrante
+      coordinador (SI | NO) #REQUIRED>

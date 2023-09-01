@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "tareas.dtd">
+<?xml-stylesheet type="text/css" href="tareas.css"?>
+<!--Grupo #3-->
+<universidad>
+    <grupodetrabajo>El siguiente trabajo fue realizado por el grupo #3</grupodetrabajo>
+    <facultad>
+        <nombref>FIA</nombref>
+        <codigof>FI001</codigof>
+    </facultad>
+    <carrera>
+        <nombre>Ingeniería Informática</nombre>
+        <codigo>II001</codigo>
+    </carrera>
+    <materia>Tecnicas de programacion para internet</materia>
+    <grupo>
+        <formacion>Teórico</formacion>
+        <profesor>Ing. Balmore Ortiz</profesor>
+        <grupo_num tipo="GT" aula="teorico">Grupo 3</grupo_num>
+        <tema>XML valido</tema>
+        <integrantes>
+          <integrante coordinador="SI">
+              <carnet>AC17033 </carnet>
+              <apellidos>Claudia María </apellidos>
+              <nombresi>Argueta Caneza</nombresi>
+              <sexo>F</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>AL20006 </carnet>
+              <nombresi>Helen Jazmín</nombresi>
+              <apellidos> Alvarado Landaverde </apellidos>
+              <sexo>F</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>BH18014 </carnet>
+              <nombresi>Atlai Eliasib  </nombresi>
+              <apellidos>Bonilla Henríquez  </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>EM19009  </carnet>
+              <nombresi>Oscar Alejandro </nombresi>
+              <apellidos>Elías Moran </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>MH18083   </carnet>
+              <nombresi>Marvin Sigfredo </nombresi>
+              <apellidos>Martínez Hernández </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>MH19028   </carnet>
+              <nombresi>David Ernesto  </nombresi>
+              <apellidos>Mendoza Herrera </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>OV14010 </carnet>
+              <nombresi>Ángel Mauricio </nombresi>
+              <apellidos>Ordoñez Vásquez  </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+          <integrante coordinador="NO">
+              <carnet>RL18051 </carnet>
+              <nombresi>Christian Adonay  </nombresi>
+              <apellidos>Rivera López  </apellidos>
+              <sexo>M</sexo>
+          </integrante>
+        </integrantes>
+    </grupo>
+</universidad>
