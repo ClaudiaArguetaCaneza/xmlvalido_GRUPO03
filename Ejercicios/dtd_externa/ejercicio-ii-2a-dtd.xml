@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejemplo-ii-2a-dtd.xml GRUPO03-->
+
+<!DOCTYPE fichero SYSTEM "fichero-ii-2a.dtd">
+ <fichero>
+ <ficha>
+	<nombre sexo="femenino" edad="17">Angelina</nombre>
+	<apellido>Fernandez</apellido>
+	<direccion>c/Ulises, 36</direccion>
+	<DUI>45632812-8</DUI>
+
+	<telefono>
+		<movil>77520008</movil>
+		<fijo>78578236</fijo>
+	</telefono>
+
+	<estudio>
+		<carrera> Ingenieria de Sistemas Informaticos </carrera>
+		<facultad>Facultad de Ingenieria y Arquitectura</facultad>
+		<universidad>Universidad de El Salvador</universidad>
+	</estudio>
+
+	<grupofamiliar>
+		<padre>Jose Fernandez</padre>
+		<madre>Sonia Lopez</madre>
+		<hijo>Fernando Fernandez</hijo>
+	</grupofamiliar>
+ </ficha>
+</fichero>
