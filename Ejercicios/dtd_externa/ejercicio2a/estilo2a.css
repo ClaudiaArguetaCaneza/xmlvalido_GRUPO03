@@ -8,7 +8,8 @@ fichero {
     line-height: 1.5;
     color: #141414;
     text-align: center;}
-  
+    a{background-color:#b3004a;color:#ffe604;font-size:25px;display:block;text-align: left;}
+     
        ficha {background-color:rgba(247, 188, 237, 0.438); color:rgb(22, 1, 22);padding: 20px;display:block; border: 3px solid #ccc;} 
        nombre {color:#252440; display:inline;font-size:35px;} 
        apellido {color:yellow;font-size:35px;}

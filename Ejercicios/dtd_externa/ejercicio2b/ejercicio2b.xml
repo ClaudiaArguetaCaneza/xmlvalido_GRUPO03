@@ -2,6 +2,9 @@
 <?xml-stylesheet type="text/css" href="estilo2b.css"?>
 <!DOCTYPE fichero SYSTEM "ejercicio2b.dtd">
 <fichero>
+  <website>
+        <a xmlns="http://www.w3.org/1999/xhtml" href="../../../index.html" target="marco"> INICIO</a>
+    </website>
     <ficha>
         <nombre sexo="femenino" edad="17">Angelina</nombre>
         <apellido>Fernandez</apellido>

@@ -10,6 +10,7 @@ fichero {
     text-align: center;}
   
        ficha {background-color:rgba(247, 188, 237, 0.438); color:rgb(22, 1, 22);display:block;padding: 20px;} 
+       a{background-color:#b3004a;color:#ffe604;font-size:25px;display:block;text-align: left;}
        nombre {color:#252440; display:inline;font-size:35px;} 
        apellido {color:rgb(107, 13, 49);font-size:35px;}
        DUI {font-size:30px;}
@@ -17,4 +18,4 @@ fichero {
        telefono {background-color:#ffacd3;font-size:20px;display:block;}
        estudio {background-color:#fdcae1;font-size:20px;display:block;}
        grupofamiliar {background-color:#ffe5f0;font-size:20px;display:block;}
-       website{font-size:30px;display:block;}
+      

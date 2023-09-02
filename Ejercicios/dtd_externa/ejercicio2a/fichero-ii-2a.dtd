@@ -10,3 +10,10 @@
     <!ELEMENT telefono (fijo|movil)>
     <!ELEMENT estudio (carrera, (facultad?,universidad))>
     <!ELEMENT grupofamiliar (padre, madre, (hijo|hija)*, amadecasa?)>
+
+        <!ELEMENT website (a)>
+		<!ELEMENT a (#PCDATA) >
+		<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank">

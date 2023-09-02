@@ -3,8 +3,8 @@
 <!-- ejemplo-ii-1a-dtd.xml GRUPO03-->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+,website)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?, telefono, estudio?, grupofamiliar?)>
+		<!ELEMENT fichero (ficha+)>
+		<!ELEMENT ficha (a,nombre, apellido, direccion*, DUI?, telefono, estudio?, grupofamiliar?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
         <!ATTLIST nombre edad  CDATA  #IMPLIED>
@@ -14,9 +14,9 @@
 		<!ELEMENT telefono (fijo|movil)>
 		<!ELEMENT estudio (carrera, (facultad?,universidad))>
 		<!ELEMENT grupofamiliar (padre, madre, (hijo|hija)*, amadecasa?)>
-		<!ELEMENT website (a)>
+
 		<!ELEMENT a (#PCDATA) >
-			<!ATTLIST a  
+		<!ATTLIST a  
 			href CDATA #IMPLIED
 			xmlns CDATA #IMPLIED 
 			target (_blank|_self|marco) "_blank">
@@ -24,6 +24,8 @@
 <fichero>
 
  <ficha>
+	<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco"> INICIO</a>
+
 	<nombre sexo="femenino" edad="17">Angelina</nombre>
 	<apellido>Fernandez</apellido>
 	<DUI>45632812-8</DUI>
@@ -45,10 +47,6 @@
 		<madre>Sonia Lopez</madre>
 		<hijo>Fernando Fernandez</hijo>
 	</grupofamiliar>
-
-	<website>
-    <a xmlns="" href="https://xmlvalido-grupo-03.vercel.app/" target="marco">INICIO</a>
- 	</website>
 	
  </ficha>
  

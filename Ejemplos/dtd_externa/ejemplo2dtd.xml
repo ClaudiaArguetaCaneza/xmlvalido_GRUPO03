@@ -2,6 +2,9 @@
 <?xml-stylesheet type="text/css" href="estilo.css" ?>
 <!DOCTYPE fichero SYSTEM "fichero.dtd">
 <fichero>
+<website>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco"> INICIO</a>
+</website>
  <ficha>
   <nombre sexo="masculino">
          Angel

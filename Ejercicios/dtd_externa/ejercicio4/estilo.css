@@ -9,7 +9,9 @@ fichero {
     color: #141414;
     text-align: center;
     }
-  
+       
+    a{background-color:#b3004a;color:#ffe604;font-size:25px;display:block;text-align: left;}
+      
        curriculum {background-color:#00966e; display:block;margin: 20px auto;padding: 20px;} 
        name {color:#03021f;font-size:30px;display:block;font-weight: bold;} 
 

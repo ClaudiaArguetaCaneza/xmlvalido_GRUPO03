@@ -3,19 +3,27 @@
 <!-- ejemplo-ii-1c-dtd.xml GRUPO03-->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
+		<!ELEMENT fichero (ficha+, website)>
+		<!ELEMENT ficha (a,nombre, apellido, direccion*, DUI?)>
 		<!ELEMENT nombre (#PCDATA)>
 		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
     <!ATTLIST nombre edad  CDATA  #IMPLIED>
 		<!ELEMENT apellido (#PCDATA)>
 		<!ELEMENT direccion (#PCDATA)>
 		<!ELEMENT DUI (#PCDATA)>
-		
+<!ELEMENT website (a)>
+		<!ELEMENT a (#PCDATA) >
+		<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank">
 		]>
 <fichero>
-
+<website>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../../index.html" target="marco"> INICIO</a>
+</website>
  <ficha>
+ 
 	<nombre sexo="femenino" edad="17">Angelina</nombre>
 	<apellido>Fernandez</apellido>
 	<direccion>c/Ulises, 36</direccion>

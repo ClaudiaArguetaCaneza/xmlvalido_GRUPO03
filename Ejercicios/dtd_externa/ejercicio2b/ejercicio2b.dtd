@@ -1,0 +1,6 @@
+    <!ELEMENT website (a)>
+		<!ELEMENT a (#PCDATA) >
+		<!ATTLIST a  
+			href CDATA #IMPLIED
+			xmlns CDATA #IMPLIED 
+			target (_blank|_self|marco) "_blank">
