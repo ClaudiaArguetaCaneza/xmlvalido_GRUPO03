@@ -8,8 +8,10 @@ codigof {color:orange; font-size: 1cm;display:block;}
 carrera {background-color:green;color:yellow;font-size:1cm; display:block;}
 materia {background-color:orange;color:blue; font-size: 1cm; display: block;}
 grupo {background-color: purple;color:aqua; font-size: 1cm; display: block;}
+grupo_num[tipo]::before {content:attr(tipo) "-" attr(aula);color:cyan;font-weight:bold;font-size:1cm;display: inline;};
 formacion {color:aqua; font-size: 1cm;display:block;}
 profesor {color:aqua; font-size: 1cm;display:block;}
 grupo_num {color:aqua; font-size: 1cm;display:block;}
 tema {color:aqua; font-size: 1cm;display:block;}
 integrantes {color:aqua; font-size: 1cm;display:block; white-space: pre-line}
+integrante[coordinador]::before {content:attr(coordinador) " es coordinador";color:cyan;font-weight:bold;font-size:1cm;display: block;};
