@@ -22,9 +22,9 @@
 	</estudio>
 
 	<grupofamiliar>
-		<padre>Jose Fernandez</padre>
-		<madre>Sonia Lopez</madre>
-		<hijo>Fernando Fernandez</hijo>
+		<padre>* Jose Fernandez</padre>
+		<madre>* Sonia Lopez</madre>
+		<hijo>* Fernando Fernandez</hijo>
 	</grupofamiliar>
  </ficha>
 </fichero>
