@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo2b.css"?>
+<!DOCTYPE fichero [
+    <!ELEMENT fichero (ficha+)>
+    <!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ATTLIST nombre
+        sexo (masculino|femenino) #REQUIRED
+        edad CDATA #IMPLIED>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT DUI (#PCDATA)>
+
+    <!ELEMENT direccion_linea1 (#PCDATA)>
+    <!ELEMENT direccion_linea2 (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT codigo_postal (#PCDATA)>
+]>
+<fichero>
+    <ficha>
+        <nombre sexo="femenino" edad="17">Angelina</nombre>
+        <apellido>Fernandez</apellido>
+        <direccion>
+            <direccion_linea1>c/Ulises, 36</direccion_linea1>
+            <direccion_linea2>Edificio A, Piso 4</direccion_linea2>
+            <ciudad>San Salvador</ciudad>
+            <estado>SS</estado>
+            <codigo_postal>12345</codigo_postal>
+        </direccion>
+    </ficha>
+</fichero>

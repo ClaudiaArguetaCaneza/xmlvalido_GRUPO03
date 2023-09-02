@@ -1,0 +1,49 @@
+/* Estilo para el elemento fichero */
+fichero {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    display: block; /* Añadido */
+}
+
+/* Estilo para el elemento ficha */
+ficha {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: block; /* Añadido */
+}
+
+/* Estilo para el elemento nombre */
+nombre {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    display: block; /* Añadido */
+}
+
+/* Estilo para el elemento apellido */
+apellido {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    display: block; /* Añadido */
+}
+
+/* Estilo para el elemento direccion */
+direccion {
+    margin-top: 10px;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+    display: block; /* Añadido */
+}
+
+/* Estilo para los elementos dentro de direccion */
+direccion_linea1, direccion_linea2, ciudad, estado, codigo_postal {
+    font-size: 14px;
+    color: #777;
+    display: block; /* Añadido */
+}
