@@ -1,0 +1,23 @@
+/* estilos.css   Grupo03  */
+
+fichero {
+    background-color:#8c8c8c;
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #141414;
+    text-align: center;
+    }
+  
+       curriculum {background-color:#00966e; display:block;margin: 20px auto;padding: 20px;} 
+       name {color:#03021f;font-size:30px;display:block;font-weight: bold;} 
+
+       datospersonales {background-color:#1356bb;font-size:25px;display:block;}
+       experienciaLaboral{background-color:#427ed7;display:block;}
+       puesto{background-color:#427ed7;display:block;font-weight: bold;}
+       educacion {background-color:#5f95e7;display:block;}
+       habilidades {background-color:#427ed7;display:block;}
+       cursos {background-color:#5f95e7;display:block;}
+
+   

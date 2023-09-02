@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo.css" ?>
+
+<!-- ejemplo-ii-4-dtd.xml GRUPO03 -->
+<!-- IV.10. Diseñe una DTD y un documento xml para representar curriculum vitae de una persona. -->
+
+<!DOCTYPE fichero SYSTEM "curriculum.dtd">
+
+<fichero>
+    <curriculum>
+        <name>
+            <nombre>Juan Pablo</nombre>
+            <apellido>Lopez</apellido>
+        </name> 
+
+        <datosPersonales>        
+            <fechaNacimiento>05-07-1989</fechaNacimiento>
+            <direccion>Barrio San Juan, Cojutepeque, Cuscatlan</direccion>
+            <telefono>7897-9887</telefono>
+            <correoElectronico>juan.lopez@gmail.com</correoElectronico>
+            <DUI>45632812-8</DUI>
+        </datosPersonales>
+
+        <experienciaLaboral>
+            <puesto>Desarrollador de software</puesto>
+            <empresa>Digital Solucion</empresa>
+            <fechaInicio>01-01-2015</fechaInicio>
+            <fechaFin>01-01-2018</fechaFin>
+
+            <puesto>Analista</puesto>
+            <empresa>Ministerio de educacion</empresa>
+            <fechaInicio>15-03-2018</fechaInicio>
+            <fechaFin>Actualidad</fechaFin>
+        </experienciaLaboral>
+
+        <educacion>
+            <titulo>Ingeniería de Sistemas Informaticos</titulo>
+            <institucion>Universidad de El Salvador</institucion>
+            <anio>07-12-2013</anio>
+        </educacion>
+
+        <habilidades>
+            * Python
+            * JavaScript
+            * Git
+            * Scrum
+        </habilidades>
+
+        <cursos>
+            * Manejo de Python
+            * Azure Fundamental
+        </cursos>
+
+    </curriculum>
+
+        <curriculum>
+        <name>
+            <nombre>Ana Julia</nombre>
+            <apellido>Amaya</apellido>
+        </name> 
+
+        <datosPersonales>        
+            <fechaNacimiento>12-06-1995</fechaNacimiento>
+            <direccion>Barrio Concepcion, San Miguel</direccion>
+            <telefono>7897-9887</telefono>
+            <correoElectronico>Ana.Amaya12@gmail.com</correoElectronico>
+            <DUI>45632812-8</DUI>
+        </datosPersonales>
+
+        <experienciaLaboral>
+            <puesto>Analista</puesto>
+            <empresa>Banco Agricola</empresa>
+            <fechaInicio>01-06-2020</fechaInicio>
+            <fechaFin>01-06-2021</fechaFin>
+        </experienciaLaboral>
+
+        <educacion>
+            <titulo>Ingeniería de Sistemas Informaticos</titulo>
+            <institucion>Universidad de El Salvador</institucion>
+            <anio>07-12-2018</anio>
+        </educacion>
+
+          <cursos>
+            * Azure Fundamental
+            * Microsoft Office
+            * Ciberseguridad
+        </cursos>
+    </curriculum>
+</fichero>

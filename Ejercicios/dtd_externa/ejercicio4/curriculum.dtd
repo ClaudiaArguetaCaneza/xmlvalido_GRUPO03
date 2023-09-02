@@ -1,0 +1,38 @@
+    <!-- curriculum.dtd -->
+    <!ELEMENT fichero (curriculum+)>
+
+    <!ELEMENT curriculum (datosPersonales, experienciaLaboral, educacion, habilidades?, cursos?)>
+
+    <!ELEMENT name (nombre, apellido)>
+
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+
+    <!ELEMENT datosPersonales (fechaNacimiento, sexo, direccion, telefono, correoElectronico, DUI, NIT?)>
+    
+    <!ELEMENT fechaNacimiento (#PCDATA)>
+    <!ELEMENT sexo (masculino|femenino)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT correoElectronico (#PCDATA)>
+    <!ELEMENT DUI (#PCDATA)>
+    <!ELEMENT NIT (#PCDATA)>
+
+    <!ELEMENT experienciaLaboral (puesto, empresa, fechaInicio, fechaFinal)>
+
+    <!ELEMENT puesto (#PCDATA)>
+    <!ELEMENT empresa (#PCDATA)>
+    <!ELEMENT fechaInicio (#PCDATA)>
+    <!ELEMENT fechaFinal (#PCDATA)>
+
+    <!ELEMENT educacion (titulo, institucion, anio)>
+
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT institucion (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+
+    <!ELEMENT habilidades (habilidad*)>
+    <!ELEMENT habilidad (#PCDATA)>
+
+    <!ELEMENT cursos (curso*)>
+    <!ELEMENT curso (#PCDATA)>
