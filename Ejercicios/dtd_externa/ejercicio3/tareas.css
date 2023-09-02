@@ -15,3 +15,5 @@ grupo_num {color:aqua; font-size: 1cm;display:block;}
 tema {color:aqua; font-size: 1cm;display:block;}
 integrantes {color:aqua; font-size: 1cm;display:block; white-space: pre-line}
 integrante[coordinador]::before {content:attr(coordinador) " es coordinador";color:cyan;font-weight:bold;font-size:1cm;display: block;};
+a{background-color:#b3004a;color:#ffe604;font-size:25px;display:block;text-align: left;}
+      
